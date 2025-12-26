@@ -98,7 +98,11 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "djitellopy" },
+    { name = "opencv-python" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "djitellopy", specifier = ">=2.5.0" }]
+requires-dist = [
+    { name = "djitellopy", specifier = ">=2.5.0" },
+    { name = "opencv-python", specifier = ">=4.11.0.86" },
+]
